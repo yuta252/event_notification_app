@@ -14,6 +14,8 @@ gem 'omniauth-github', '~> 1.4.0'
 gem 'omniauth-rails_csrf_protection', '~> 0.1.2'
 # multi language
 gem 'rails-i18n', '~> 6.0.0'
+# test
+gem 'factory_bot_rails'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server

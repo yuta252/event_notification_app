@@ -7,4 +7,6 @@ Rails.application.routes.draw do
     resources :tickets
   end
   resources :retirements
+
+  get 'status' => 'status#index', defaults: { format: 'json' }
 end
