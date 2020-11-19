@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+パーフェクトRuby on Rails(技術評論社)による第6章からのイベント通知アプリケーションのサンプルコード
 
-Things you may want to cover:
+# 環境
 
-* Ruby version
+* Ruby 2.6.6
 
-* System dependencies
+* Rails 6.0.3
 
-* Configuration
 
-* Database creation
+# デモアプリ起動方法
 
-* Database initialization
+```bash
+git clone https://github.com/yuta252/event_notification_app.git
+cd event_notification_app
+bundle install --path vendor/bundle
+bundle exec rails s -b 127.0.0.1
+```
 
-* How to run the test suite
+# アプリの機能
 
-* Services (job queues, cache servers, search engines, etc.)
+* Github OAuthを利用したログイン認証
 
-* Deployment instructions
+* イベントの作成、編集、削除
 
-* ...
+* イベントへの参加、キャンセル、コメント機能
+
+* 退会機能
